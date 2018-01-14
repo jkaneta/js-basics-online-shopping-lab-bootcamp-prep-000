@@ -50,7 +50,8 @@ function removeFromCart(item) {
   // write your code here
   for (var eachItem in cart) {
     if (cart[eachItem].hasOwnProperty(item)) {
-      
+      cart.splice(eachItem,1);
+      return cart;
     }
   }
 }
