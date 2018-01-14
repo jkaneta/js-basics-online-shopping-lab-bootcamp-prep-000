@@ -34,7 +34,6 @@ function viewCart() {
   } else {
     cartContents += `${cartArray.slice(0,cart.length -1).join(', ')}, and ${cartArray[cart.length-1]}.`; 
   }
-  
   console.log(cartContents);
 }
 
