@@ -30,11 +30,11 @@ function viewCart() {
     }
   }
   if (cart.length <= 2) {
-    console.log(`${cartContents}${cartArray.join(' and ')}.`);
+    cartContents += `${cartArray.join(' and ')}.`;
   }
   
-//  cartContents += '.';
-//  return cartContents;
+  cartContents += '.';
+  return cartContents;
 }
 
 function total() {
