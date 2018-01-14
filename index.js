@@ -49,7 +49,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   for (var eachItem in cart) {
-    if (cart[each(tem].hasOwnProperty(item)) {
+    if (cart[eachItem].hasOwnProperty(item)) {
       
     }
   }
