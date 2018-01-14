@@ -48,8 +48,10 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  for (var items in cart) {
-    if ()
+  for (var eachItem in cart) {
+    if (cart[each(tem].hasOwnProperty(item)) {
+      
+    }
   }
 }
 
