@@ -41,7 +41,7 @@ function total() {
   // write your code here
   var cartTotalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
-    cartTotalAmount += Object.values(cart[i]);
+    cartTotalAmount += parseInt(Object.values(cart[i]));
   }
   return cartTotalAmount;
 }
