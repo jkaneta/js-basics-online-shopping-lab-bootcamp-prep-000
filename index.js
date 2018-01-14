@@ -33,10 +33,9 @@ function viewCart() {
   if (cart.length <= 2) {
     cartContents += `${cartArray.join(' and ')}.`;
   } else {
-    cartContents += `${cartArray.slice(0,cart.length -1).join(', ')}, and ${cartArray[cart.length-1]}`; 
+    cartContents += `${cartArray.slice(0,cart.length -1).join(', ')}, and ${cartArray[cart.length-1]}.`; 
   }
   
-  cartContents += '.';
   return cartContents;
 }
 
