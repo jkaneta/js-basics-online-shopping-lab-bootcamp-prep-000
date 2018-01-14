@@ -43,6 +43,7 @@ function total() {
   for (var i = 0; i < cart.length; i++) {
     cartTotalAmount += Object.values(cart[i]);
   }
+  return cartTotalAmount;
 }
 
 function removeFromCart(item) {
