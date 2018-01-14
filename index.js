@@ -30,7 +30,7 @@ function viewCart() {
     }
   }
   if (cart.length <= 2) {
-    cartContents += `${cartArray.join(' and ')}.`;
+    cartContents += `${cartArray.join(' and ')}`;
   }
   
   cartContents += '.';
