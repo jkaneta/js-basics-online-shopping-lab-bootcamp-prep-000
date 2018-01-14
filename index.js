@@ -30,9 +30,9 @@ function viewCart() {
     }
   }
   if 
-    cartContents += '.';
-    return cartContents;
-  }
+  
+  cartContents += '.';
+  return cartContents;
 }
 
 function total() {
