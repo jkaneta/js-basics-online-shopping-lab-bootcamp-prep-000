@@ -26,14 +26,10 @@ function viewCart() {
     console.log('Your shopping cart is empty.');
   } else {
     for (var i = 0; i < cart.length; i++) {
-      cartContents += `${Object.keys(cart[0])} at $${Object.values(cart[0])}`;
-//      if (i === (cart.length - 1)) {
-//        cartContents += `and ${Object.keys(cart[i])} at $${Object.values(cart[i])}.`;
-//      } else {
-//        cartContents += `${Object.keys(cart[i])} at $${Object.values(cart[i])}, `;
-//      }
+      cartArray.push(`${Object.keys(cart[0])} at $${Object.values(cart[0])}`);
     }
-    
+  }
+  if 
     cartContents += '.';
     return cartContents;
   }
