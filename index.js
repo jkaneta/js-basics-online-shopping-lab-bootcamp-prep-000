@@ -48,7 +48,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  for (var item in cart)
+  var cartItems = Object.keys(cart);
   
 }
 
