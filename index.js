@@ -20,6 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var cartArray = [];
   var cartContents = 'In your cart, you have ';
   if (cart.length === 0) {
     console.log('Your shopping cart is empty.');
@@ -32,6 +33,7 @@ function viewCart() {
 //        cartContents += `${Object.keys(cart[i])} at $${Object.values(cart[i])}, `;
 //      }
     }
+    
     cartContents += '.';
     return cartContents;
   }
