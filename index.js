@@ -31,6 +31,8 @@ function viewCart() {
   }
   if (cart.length <= 2) {
     console.log(`${cartContents}${cartArray.join(' and ')}.`);
+  } else {
+    console.log(`${cartContents}${cartArray.join(' and ')}.`); 
   }
   
 //  cartContents += '.';
