@@ -39,7 +39,10 @@ function viewCart() {
 
 function total() {
   // write your code here
-  
+  var cartTotalAmount = 0;
+  for (var i = 0; i < cart.length; i++) {
+    cartArray.push(`${Object.keys(cart[i])} at $${Object.values(cart[i])}`);
+  }
 }
 
 function removeFromCart(item) {
