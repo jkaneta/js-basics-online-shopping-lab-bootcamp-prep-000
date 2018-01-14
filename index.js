@@ -35,8 +35,8 @@ function viewCart() {
     cartContents += `${cartArray.slice(0,cart.length -1).join(', ')}, and ${cartArray[cart.length-1]}.`); 
   }
   
-//  cartContents += '.';
-//  return cartContents;
+  cartContents += '.';
+  return cartContents;
 }
 
 function total() {
