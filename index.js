@@ -29,7 +29,9 @@ function viewCart() {
       cartArray.push(`${Object.keys(cart[0])} at $${Object.values(cart[0])}`);
     }
   }
-  if 
+  if (cart.length <= 2) {
+    console.log(`${cartContents}${cartArray.join(' and ')}.`);
+  }
   
   cartContents += '.';
   return cartContents;
