@@ -53,9 +53,10 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item) === true) {
       cart.splice(i,1);
       break;
+      return cart;
     }
   }
-  return cart;
+  
 }
 
 function placeOrder(cardNumber) {
