@@ -33,8 +33,8 @@ function viewCart() {
     console.log(`${cartContents}${cartArray.join(' and ')}.`);
   }
   
-  cartContents += '.';
-  return cartContents;
+//  cartContents += '.';
+//  return cartContents;
 }
 
 function total() {
